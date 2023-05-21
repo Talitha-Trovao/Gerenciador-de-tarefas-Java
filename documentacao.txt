@@ -1,0 +1,58 @@
+Branchs utilizadas:
+main - 
+
+Banco de dados utilizado: PostgreSQL v15
+
+
+
+
+
+Descrição do projeto:
+
+Você está criando um sistema de gerenciamento de tarefas. O sistema deve
+permitir que os usuários cadastrem, atualizem, visualizem e excluam tarefas.
+Cada tarefa tem um título, descrição, status (pendente, em progresso ou
+concluída) e data de conclusão.
+Requisitos técnicos:
+a. Use o Spring MVC para criar o backend da aplicação.
+b. Utilize o Thymeleaf como mecanismo de template para renderizar as páginas.
+c. Implemente o frontend utilizando o Bootstrap para criar uma interface responsiva
+e agradável.
+d. Utilize o banco de dados de sua escolha para persistir as tarefas (por exemplo,
+MySQL, PostgreSQL, H2, etc.).
+2. Implemente operações CRUD (create, read, update, delete) para as tarefas.
+Funcionalidades básicas:
+a. Página inicial: exiba a lista de todas as tarefas cadastradas, com a opção de filtrar
+por status.
+b. Cadastro de tarefas: forneça um formulário para que os usuários possam criar
+novas tarefas, preenchendo título, descrição, status e data de conclusão.
+c. Visualização de tarefas: ao clicar em uma tarefa da lista, exiba os detalhes da
+tarefa em uma página separada.
+d. Atualização de tarefas: permita que os usuários editem as informações de uma
+tarefa existente.
+3. Exclusão de tarefas: forneça a opção de excluir uma tarefa.
+Recursos extras (opcional):
+a. Paginação: caso haja muitas tarefas cadastradas, implemente um mecanismo de
+paginação para exibir apenas um número limitado de tarefas por página.
+b. Validação de formulários: adicione validação nos formulários para garantir que os
+campos sejam preenchidos corretamente.
+c. Personalização do layout: utilize as classes do Bootstrap para estilizar o frontend
+de forma atraente e intuitiva.
+4. Implementação de filtro de pesquisa: adicione um campo de pesquisa que
+permita aos usuários filtrar as tarefas por título ou descrição.
+Passos sugeridos para a avaliação:
+a. Crie um repositório Git para o projeto.
+b. Implemente os modelos de dados, controladores e serviços necessários no
+backend.
+c. Crie as páginas HTML com Thymeleaf e utilize o Bootstrap para estilizar o
+frontend.
+d. Teste a funcionalidade completa do sistema, verificando se todas as operações
+CRUD estão funcionando corretamente.
+e. Faça commits regulares no Git para mostrar o progresso do desenvolvimento.
+f. Documente o processo de desenvolvimento, explicando as decisões tomadas e os
+desafios encontrados.
+5. No final, submeta o projeto completo, incluindo o código-fonte e a
+documentação.
+Essa avaliação prática permitirá que você demonstre seus conhecimentos em Java, Spring
+MVC, Thymeleaf, Bootstrap e também suas habilidades de desenvolvimento web. Fique à
+vontade para adaptar e estende
