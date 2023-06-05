@@ -10,16 +10,13 @@ public class task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String titulo;
     private String descricao;
     private String status;
-    private Date completionDate;
+    private localDate completionDate;
 
-    public Task() {
-    }
-
-    public Task(String titulo, String descricao, String status, Date completionDate) {
+    
+    public Task(String titulo, String descricao, String status, localDate completionDate) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.status = status;
@@ -59,7 +56,7 @@ public class task {
         this.status = status;
     }
 
-    public Date getCompletionDate() {
+    public localDate getCompletionDate() {
         return completionDate;
     }
 
